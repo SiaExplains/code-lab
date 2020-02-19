@@ -1,0 +1,11 @@
+{
+    "name": "algorithms-lab",
+    "version": "1.0.0",
+    "description": "I'm trying to going deep into all algorithms and learn them daily",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Siavash Ghanbari",
+    "license": "ISC"
+}
