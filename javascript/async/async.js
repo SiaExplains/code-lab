@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const posts = [
     { title: 'post one', body: 'body of first post' },
     { title: 'post two', body: 'body of second post' }
@@ -27,11 +29,24 @@ function createPost(post) {
     });
 }
 
-createPost({ title: 'post three', body: 'body of third post' })
-    .then(data => {
-        console.log(`DATA FROM RESOLVE() => ${data}`);
-        getPosts();
-    })
-    .catch(e => {
-        console.log(`ERROR FROM REJECT() => ${e}`);
+async function demo() {
+    let data = await createPost({
+        title: 'post three',
+        body: 'body of third post'
     });
+    console.log(`DATA FROM ASYNC/AWAIT: ${data}`);
+
+    let resultOfFetch = await fetch(
+        'https://jsonplaceholder.typicode.com/users'
+    );
+
+    let users = await resultOfFetch.json();
+
+    users.map(u => {
+        console.log(`NUMBER OF USERS: ${u.name}`);
+    });
+
+    getPosts();
+}
+
+demo();
