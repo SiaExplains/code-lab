@@ -5,7 +5,7 @@ emitter.addListener('come', () => {
     console.log('come here!');
 });
 
-emitter.addListener('make-noise', () => {
+emitter.addListener('make-noise', async () => {
     console.log('NOOOOOOOOOOOISE!');
 });
 

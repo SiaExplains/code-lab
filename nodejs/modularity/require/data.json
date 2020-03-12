@@ -1,0 +1,8 @@
+{
+    "books": [
+        { "name": "c++", "price": 600 },
+        { "name": "oop", "price": 800 },
+        { "name": "solid", "price": 1200 }
+    ],
+    "academy": ["udemy", "coursera"]
+}
