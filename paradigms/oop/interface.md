@@ -1,0 +1,1 @@
+-   an interface can not have any code implementation

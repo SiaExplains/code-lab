@@ -1,0 +1,1 @@
+-   a class that can't be instantiate!
