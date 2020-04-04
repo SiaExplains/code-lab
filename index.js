@@ -9,7 +9,7 @@ app = () => {
         '3.Nodejs',
         '4.Patterns',
         '5.Paradigms',
-        '6.Typescript'
+        '6.Typescript',
     ];
 
     console.log(
@@ -18,7 +18,7 @@ app = () => {
         }, 'Code LAB Commands:')
     );
     console.log('-------------------->');
-    stdin.on('data', function(inputChar) {
+    stdin.on('data', function (inputChar) {
         if (inputChar === '\u0003') {
             process.exit();
         }
@@ -28,7 +28,7 @@ app = () => {
                 stdin.pause();
                 const f = require('./algorithms/recursive/fibonacci')
                     .algorithm_rec_fib;
-                f().then(d => {
+                f().then((d) => {
                     stdin.resume();
                 });
                 break;
@@ -40,8 +40,6 @@ app = () => {
         }
     });
 };
-
-//app();
 
 let seconds = 0;
 setInterval(() => {
