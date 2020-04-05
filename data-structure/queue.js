@@ -28,7 +28,7 @@ class Queue {
     }
 
     enqueue(value) {
-        let node = new Node();
+        let node = new Node(value);
 
         if (this.isEmpty()) {
             this.front = this.back = node;
@@ -38,7 +38,31 @@ class Queue {
         }
     }
 
+    dequeue() {
+        let node = this.front;
+        if (this.isEmpty()) {
+            this.front = this.front.next;
+        }
+    }
+
     print() {
-        //if()
+        if (this.isEmpty()) {
+            console.log('Queue is empty');
+        } else {
+            let tempArr = [];
+            let tmp = this.front;
+            while (tmp) {
+                tempArr.push(tmp.value);
+                tmp = tmp.next;
+            }
+            console.log(tempArr.join(','));
+        }
     }
 }
+
+let q = new Queue();
+q.enqueue(10);
+q.enqueue(5);
+q.enqueue(15);
+q.enqueue(67);
+q.print();
