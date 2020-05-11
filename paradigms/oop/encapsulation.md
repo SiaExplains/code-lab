@@ -1,0 +1,1 @@
+-   protect non-necessary details in a class

@@ -1,8 +1,14 @@
 /*
-    pattern not implemented yet!
+
+    It's a creational pattern.
+    
+    limit number of instances of an object to at most one!
+
+    there are two types of singleton pattern:
+    - thread-safe
+    - non-thread-safe
 
     In real world:
-
     Jquery is a singleton example!
 */
 

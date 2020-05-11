@@ -1,1 +1,4 @@
 -   an interface can not have any code implementation
+-   let's achieve multiple inheritance
+-   loose coupling
+-   let's implement many types of design paterns

@@ -1,0 +1,3 @@
+-   is a relationship
+-   reduce lines of code
+-   remove redandant code

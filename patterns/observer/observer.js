@@ -1,17 +1,22 @@
+/*
+    very popular on front-end
+    invoke methods on action
+    using subscribtion!
+*/
 function Subject() {
     this.observers = [];
 }
 
 Subject.prototype = {
-    subscribe: function(fn) {
+    subscribe: function (fn) {
         this.observers.push(fn);
     },
-    unsubscribe: function(fnToRemove) {
-        this.observers = this.observers.filter(f => f != fnToRemove);
+    unsubscribe: function (fnToRemove) {
+        this.observers = this.observers.filter((f) => f != fnToRemove);
     },
-    fire: function() {
-        this.observers.forEach(fn => fn.call());
-    }
+    fire: function () {
+        this.observers.forEach((fn) => fn.call());
+    },
 };
 
 const subject = new Subject();
