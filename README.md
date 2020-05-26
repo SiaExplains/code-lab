@@ -10,14 +10,8 @@ You must choose your js-code style before writing any lines of code. There are t
 
 <hr />
 
--   [Front-End Best-Practices](front-end/best-practices.md)
--   [Back-End Best-Practices](front-end/best-practices.md)
-
-#### Security
-
--   `nodesecurity.io` for checking libraries security state
--   Escape database queries
--   never trust your users
+-   [Front-End Best-Practices](front-end/README.md)
+-   [Back-End Best-Practices](front-end/README.md)
 
 ### Database
 
