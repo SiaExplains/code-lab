@@ -12,13 +12,7 @@ You must choose your js-code style before writing any lines of code. There are t
 
 -   [Front-End Best-Practices](front-end/README.md)
 -   [Back-End Best-Practices](front-end/README.md)
-
-### Database
-
--   Sharding (Vertical/Horizontal)
--   Using Indexes
--   Consider Record Generation Estimate
--   Use NoSQL Databases for Key Value Pairs
+-   [Database Best-Practices](database/README.md)
 
 ### Performance
 
