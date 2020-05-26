@@ -1,0 +1,1 @@
+Here's a quick and easy way to differentiate agile, DevOps, and CI/CD: Agile focuses on processes highlighting change while accelerating delivery. CI/CD focuses on software-defined life cycles highlighting tools that emphasize automation. DevOps focuses on culture highlighting roles that emphasize responsiveness.
