@@ -50,3 +50,7 @@ P
 -   Distributed systems are harder to develop (remote calls are slow and always at risk of failure)
 -   transactional process and difficult to manage consistency
 -   Opertional complexcity: needs a mature team to manage lots of services, which need to deplying regularly
+
+### Anti Patterns!
+
+-   Use Microservices in small projects (remove ants with nuclear bomb)

@@ -1,3 +1,5 @@
+I just share software development best-practices in any aspect of development such as back-end, front-end , database, deployment, testing, etc. in this repo.
+
 ### CODE-STYLES
 
 You must choose your js-code style before writing any lines of code. There are three types of popular code-syles here:
@@ -6,23 +8,10 @@ You must choose your js-code style before writing any lines of code. There are t
 2. [Google](https://github.com/google/styleguide/blob/gh-pages/jsguide.html)
 3. [Github](https://github.com/standard/standard)
 
-### Front-End
+<hr />
 
--   put all client's files into `client` directory
--   Using `ReactJs` as front-end library
--   Active `CSS Modules` in `reactjs` for writing better code
--   Take advantage of `Redux` for making statful apps.
--   Using `axios` for calling back-end API's
--   Using Environment config for (Production/Development)
-
-### Back-End
-
--   put all server's files into `server` directory
--   Express JS | GraphQL as service provieder
--   using `In-Memory Table` Technique
--   using `fork()` for doing heavy thing in child processes
--   use `cluster` library for scaling
--   Token based authentication (expire, validate, refresh)
+-   [Front-End Best-Practices](front-end/best-practices.md)
+-   [Back-End Best-Practices](front-end/best-practices.md)
 
 #### Security
 
