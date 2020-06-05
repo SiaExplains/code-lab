@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Component1 from './components/component1';
 import './App.css';
 
 function App() {
     return (
         <div className='App'>
-            <h1>Welcome</h1>
+            <Component1 />
         </div>
     );
 }
