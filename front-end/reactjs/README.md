@@ -25,6 +25,8 @@
     -- Connect at multiple compoents
     -- Normalized state shape
 
+-   active React DevTools in development mode (reactjs)
+
 ### Conventions
 
 -   put all client's files into `client` directory
