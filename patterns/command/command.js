@@ -1,6 +1,4 @@
 /*
-    pattern not implemented yet!
-
     a single entry point to do some actions!
 */
 
